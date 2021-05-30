@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01_Hello_Spring/01_Hello_Spring.iml" filepath="$PROJECT_DIR$/01_Hello_Spring/01_Hello_Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_Spring_DI/02_Spring_DI.iml" filepath="$PROJECT_DIR$/02_Spring_DI/02_Spring_DI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_FullModevsLightMode/03_FullModevsLightMode.iml" filepath="$PROJECT_DIR$/03_FullModevsLightMode/03_FullModevsLightMode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_Configurations/04_Configurations.iml" filepath="$PROJECT_DIR$/04_Configurations/04_Configurations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_RuntimeValueInjection/05_RuntimeValueInjection.iml" filepath="$PROJECT_DIR$/05_RuntimeValueInjection/05_RuntimeValueInjection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_Spring_MVC/06_Spring_MVC.iml" filepath="$PROJECT_DIR$/06_Spring_MVC/06_Spring_MVC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_Spring_MVC_2/07_Spring_MVC_2.iml" filepath="$PROJECT_DIR$/07_Spring_MVC_2/07_Spring_MVC_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08_Mapping_Spec/08_Mapping_Spec.iml" filepath="$PROJECT_DIR$/08_Mapping_Spec/08_Mapping_Spec.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09_Maven/09_Maven.iml" filepath="$PROJECT_DIR$/09_Maven/09_Maven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_Simple_ForntEnd/10_Simple_ForntEnd.iml" filepath="$PROJECT_DIR$/10_Simple_ForntEnd/10_Simple_ForntEnd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Registration-Form/Registration-Form.iml" filepath="$PROJECT_DIR$/Registration-Form/Registration-Form.iml" />
+    </modules>
+  </component>
+</project>
