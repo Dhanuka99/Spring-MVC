@@ -12,7 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/08_Mapping_Spec/08_Mapping_Spec.iml" filepath="$PROJECT_DIR$/08_Mapping_Spec/08_Mapping_Spec.iml" />
       <module fileurl="file://$PROJECT_DIR$/09_Maven/09_Maven.iml" filepath="$PROJECT_DIR$/09_Maven/09_Maven.iml" />
       <module fileurl="file://$PROJECT_DIR$/10_Simple_ForntEnd/10_Simple_ForntEnd.iml" filepath="$PROJECT_DIR$/10_Simple_ForntEnd/10_Simple_ForntEnd.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Registration-Form/Registration-Form.iml" filepath="$PROJECT_DIR$/Registration-Form/Registration-Form.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-Spring-Data-JPA/11-Spring-Data-JPA.iml" filepath="$PROJECT_DIR$/11-Spring-Data-JPA/11-Spring-Data-JPA.iml" />
     </modules>
   </component>
 </project>
