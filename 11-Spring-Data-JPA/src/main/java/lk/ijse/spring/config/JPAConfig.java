@@ -29,6 +29,7 @@ public class JPAConfig {
         LocalContainerEntityManagerFactoryBean factoryBean = new LocalContainerEntityManagerFactoryBean();
         factoryBean.setDataSource(ds);
         factoryBean.setJpaVendorAdapter(ap);
+        factoryBean.setPackagesToScan("lk.ijse.spring.entity");
         return factoryBean;
     }
 
@@ -41,13 +42,13 @@ public class JPAConfig {
 //        dataSource.setPassword("11356");
 //        return dataSource;
         JndiTemplate jndiTemplate = new JndiTemplate();
-        return (DataSource) jndiTemplate.lookup("jdbc.pool");
+        return (DataSource) jndiTemplate.lookup("java:comp/env/jdbc/pool");
     }
 
     @Bean
     public JpaVendorAdapter vendorAdapter(){
         HibernateJpaVendorAdapter adapter = new HibernateJpaVendorAdapter();
-        adapter.setDatabasePlatform("org.hibernate.dialect.MySQL57Dialect");
+        adapter.setDatabasePlatform("org.hibernate.dialect.MySQL8Dialect");
         adapter.setDatabase(Database.MYSQL);
         adapter.setGenerateDdl(true);
         adapter.setShowSql(true);
@@ -58,6 +59,7 @@ public class JPAConfig {
     public PlatformTransactionManager transactionManager(EntityManagerFactory em){
      return new JpaTransactionManager(em);
     }
+
 
 
 
