@@ -35,14 +35,14 @@ public class JPAConfig {
 
     @Bean
     public DataSource dataSource() throws NamingException {
-//        DriverManagerDataSource dataSource = new DriverManagerDataSource();
-//        dataSource.setDriverClassName("com.mysql.jdbc,Driver");
-//        dataSource.setUrl("jdbc:mysql:/localhost:3306/a1?createDatabaseIfNotExist=true");
-//        dataSource.setUsername("root");
-//        dataSource.setPassword("11356");
-//        return dataSource;
-        JndiTemplate jndiTemplate = new JndiTemplate();
-        return (DataSource) jndiTemplate.lookup("java:comp/env/jdbc/pool");
+        DriverManagerDataSource dataSource = new DriverManagerDataSource();
+        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
+        dataSource.setUrl("jdbc:mysql://localhost:3306/a1?createDatabaseIfNotExist=true");
+        dataSource.setUsername("root");
+        dataSource.setPassword("11356");
+        return dataSource;
+      //  JndiTemplate jndiTemplate = new JndiTemplate();
+       // return (DataSource) jndiTemplate.lookup("java:comp/env/jdbc/pool");
     }
 
     @Bean
