@@ -1,6 +1,6 @@
 package lk.ijse.spring.bean;
 
-import javafx.application.Application;
+//import javafx.application.Application;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.*;
 import org.springframework.context.ApplicationContext;

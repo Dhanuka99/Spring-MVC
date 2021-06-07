@@ -11,7 +11,7 @@ import javax.transaction.Transactional;
 
 @Service
 @Transactional
-public class CustomerService {
+public class CustomerService implements lk.ijse.spring.service.impl.CustomerService {
 
     @Autowired
     private CustomerRepo customerRepo;
@@ -21,4 +21,13 @@ public class CustomerService {
         customerRepo.save(customer);
         return true;
     }
+
+    @Override
+    public CustomerDTO customerSearchByName(String name) {
+        Customer customer = customerRepo.findCustomerByName(name);
+        return  new CustomerDTO(customer.getId(), customer.getName(), customer.getAddress(), customer.getSalary());
+
+    }
+
+
 }

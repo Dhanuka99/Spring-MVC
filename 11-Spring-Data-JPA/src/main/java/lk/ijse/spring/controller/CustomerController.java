@@ -17,4 +17,9 @@ public class CustomerController {
         customerService.addCustomer(dto);
         return "true";
     }
+    @GetMapping(path = "/name/{name}")
+    public  CustomerDTO customerSearchByName(@PathVariable String name){
+        return customerService.customerSearchByName(name);
+
+    }
 }
