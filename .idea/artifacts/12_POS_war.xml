@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="12-POS:war">
+    <output-path>$PROJECT_DIR$/12-POS/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>12-POS</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="12-POS-1.0.0.war">
+      <element id="artifact" artifact-name="12-POS:war exploded" />
+    </root>
+  </artifact>
+</component>
